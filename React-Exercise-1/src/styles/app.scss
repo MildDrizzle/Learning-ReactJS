@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color:#39FF14;
+}
+
+.container {
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  p {
+    padding:0;
+    margin:0;
+  }
+
+}
+
+.day {
+  font-size:2rem;
+
+}
+
+.time {
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #39FF14;
+  font-size:10rem;
+}
+
+.date {
+  font-size:2rem;
+}
+
+
+.middle {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.middle_two {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-direction:column;
+  position:relative;
+  margin:0 2rem;
+
+  .one {
+    position:absolute;
+    top:-2.4rem;
+  }
+  .two {
+     position:absolute;
+    top:2.4rem;
+  }
+  
+}
