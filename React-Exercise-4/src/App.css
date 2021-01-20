@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 69vh;
+}
+
+button {
+  color: white;
+  background-color: #ff0054;
+  padding: 3rem 5rem;
+  font-size: 3rem;
+  border: none;
+  transition: 0.2s ease-in-out;
+  animation: size 1.2s alternate infinite;
+  text-transform: uppercase;
+}
+button:hover {
+  border-radius: 10rem;
+  font-size: 2.6rem;
+}
+
+body {
+  background-color: #56cbf9;
+}
+
+h1 {
+  font-size: 10rem;
+  color: #ff0054;
+}
+
+@keyframes size {
+  0% {
+    padding: 3rem 5rem;
+    background-color: #ff0054;
+  }
+  100% {
+    background-color: #ff66d8;
+    padding: 1.4rem 4rem;
+  }
+}
